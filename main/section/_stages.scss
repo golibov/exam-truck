@@ -1,0 +1,79 @@
+.stages {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100%;
+
+    .stages-wrapper {
+        h3 {
+            font-family: "Exo 2";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            color: $grey;
+        }
+        .stages-card-wrapper {
+            .stages-card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 56px;
+                margin-top: 48px;
+                box-shadow: 0px 4px 15px 0px #0000001f;
+                width: 100%;
+                height: 245px;
+                border-radius: 10px;
+                h4 {
+                    font-family: "Exo 2";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 25px;
+                    color: $grey;
+                }
+                .span {
+                    width: 86px;
+                    height: 0px;
+                    border: 3px solid #ffce50;
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: $light-grey;
+                    height: 88px;
+                    max-width: 568px;
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .stages{
+        .stages-wrapper{
+            h1{
+                font-size: 44px;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+            .stages-card-wrapper{
+                .stages-card{
+                    img{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px){
+    .stages{
+        display: none;
+    }
+}
+

@@ -1,0 +1,126 @@
+footer {
+    margin: 0 auto;
+    margin-top: 166px;
+    width: 1440px;
+    height: 365px;
+    background-color: $footer;
+    padding: 59px;
+    .end {
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+    }
+    .footer-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 134px;
+        flex-wrap: wrap;
+        .logo {
+            font-family: " Familjen Grotesk";
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 90px;
+            letter-spacing: 0.16em;
+            text-align: left;
+            color: white;
+        }
+        .foot-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .foot-list-items {
+                a {
+                    color: white;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+        .foot-list-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            .foot-list-items {
+                a {
+                    color: white;
+                }
+            }
+        }
+        .foot-div-2 {
+            display: none;
+        }
+        .div-foot {
+            img {
+                width: 28px;
+                height: 28px;
+                border: 0.5px solid white;
+                border-radius: 50px;
+                padding: 5px;
+            }
+
+            h5 {
+                font-family: "Exo 2";
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 19.5px;
+                text-align: left;
+                color: white;
+                padding-top: 32px;
+                flex-wrap: wrap;
+            }
+            button {
+                margin-top: 32px;
+                display: flex;
+                align-items: center;
+                background-color: #ff9619;
+                gap: 14px;
+                border: none;
+                width: 271px;
+                height: 42px;
+                padding-left: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+
+        .footer-wrapper {
+            gap: 50px;
+
+            .logo {
+                font-size: 40px;
+                line-height: 60px;
+            }
+
+            .foot-list,
+            .foot-list-2 {
+                gap: 20px;
+            }
+
+            .foot-div {
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                h5 {
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding-top: 20px;
+                }
+
+                button {
+                    width: 200px;
+                    height: 36px;
+                    margin-top: 20px;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}

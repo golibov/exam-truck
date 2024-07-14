@@ -1,0 +1,270 @@
+.work {
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 100%;
+    .work-wrapper {
+        h1 {
+            font-family: "Exo 2";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            text-align: left;
+            color: $grey;
+        }
+        .our {
+            font-family: " PT Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: $light-grey;
+            width: 100%;
+            height: 41px;
+            padding-top: 32px;
+        }
+        .work-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .work-card {
+                width: 393px;
+                height: 440px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #0000001f;
+                margin-top: 57px;
+                .work-tablet-1 {
+                    display: none;
+                }
+                .desktop-img-1 {
+                    display: flex;
+                }
+
+                h2 {
+                    font-family: "Exo 2";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: left;
+                    color: $grey;
+                    padding-top: 34px;
+                    width: 100%;
+                    padding-left: 32px;
+                    color: $grey;
+                    flex-wrap: wrap;
+                }
+                p {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    padding-top: 16px;
+                    padding-left: 32px;
+                    width: 100%;
+                    height: 41px;
+                    color: $light-grey;
+                    flex-wrap: wrap;
+                }
+                .rubl {
+                    margin-top: 32px;
+                    b {
+                        font-family: " Exo 2";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 21.6px;
+                        text-align: left;
+                        width: 92px;
+                        border-bottom: 3px solid $yellow;
+                    }
+                }
+            }
+            .work-card-2 {
+                width: 393px;
+                height: 440px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #0000001f;
+                margin-top: 57px;
+                .work-tablet-2 {
+                    display: none;
+                }
+
+                h2 {
+                    font-family: "Exo 2";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: left;
+                    color: $grey;
+                    padding-top: 34px;
+                    width: 100%;
+                    padding-left: 32px;
+                    color: $grey;
+                    flex-wrap: wrap;
+                }
+                p {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    padding-top: 16px;
+                    padding-left: 32px;
+                    width: 100%;
+                    height: 41px;
+                    color: $light-grey;
+                    flex-wrap: wrap;
+                }
+                .rubl {
+                    margin-top: 32px;
+                    b {
+                        font-family: " Exo 2";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 21.6px;
+                        text-align: left;
+                        width: 92px;
+                        border-bottom: 3px solid $yellow;
+                    }
+                }
+            }
+            .work-card-3 {
+                width: 393px;
+                height: 440px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 15px 0px #0000001f;
+                margin-top: 57px;
+
+                h2 {
+                    font-family: "Exo 2";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: left;
+                    color: $grey;
+                    padding-top: 34px;
+                    width: 100%;
+                    padding-left: 32px;
+                    color: $grey;
+                    flex-wrap: wrap;
+                }
+                p {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    padding-top: 16px;
+                    padding-left: 32px;
+                    width: 100%;
+                    height: 41px;
+                    color: $light-grey;
+                    flex-wrap: wrap;
+                }
+                .rubl {
+                    margin-top: 32px;
+                    b {
+                        font-family: " Exo 2";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 21.6px;
+                        text-align: left;
+                        width: 92px;
+                        border-bottom: 3px solid $yellow;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .work {
+        .work-wrapper {
+            h1 {
+                font-size: 44px;
+                padding-left: 40px;
+                
+            }
+            .our {
+                padding-left: 50px;
+            }
+            .work-wrap {
+                display: flex;
+                flex-direction: column;
+                .work-card {
+                    width: 690px;
+                    height: 423px;
+                    border-radius: 10px;
+
+                    .desktop-img-1 {
+                        display: none;
+                    }
+                    .work-tablet-1 {
+                        display: flex;
+                    }
+                }
+                .work-card-2 {
+                    width: 690px;
+                    height: 423px;
+                    border-radius: 10px;
+
+                    .desktop-img-2 {
+                        display: none;
+                    }
+                    .work-tablet-2 {
+                        display: flex;
+                    }
+                }
+                .work-card-3 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .work {
+        .work-wrapper {
+            h1 {
+                font-size: 28px;
+                width: 100%;
+            }
+            .our {
+                font-size: 15px;
+                padding: 0;
+                padding-left: 35px;
+            }
+            .work-wrap {
+                .work-card {
+                    width: 345px;
+                    height: 394px;
+                    top: 1461px;
+                    left: 15px;
+                    gap: 0px;
+                    border-radius: 10px;
+                    opacity: 0px;
+                    h2{
+                        padding-top: 24px;
+                    }
+                    .our{
+                        padding-top: 14px;
+                    }
+                    .rubl{
+                        margin-top: 16px;
+                    }
+                    .desktop-img-1{
+                        display: flex;
+                    }
+                    .work-tablet-1{
+                        display: none;
+                    }
+                }
+                .work-card-2 {
+                    display: none;
+                }
+                .work-card-3 {
+                    display: none;
+                }
+            }
+        }
+    }
+}

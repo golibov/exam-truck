@@ -1,0 +1,153 @@
+.intro {
+    margin: 0 auto;
+    width: 100%;
+    // height: 505px;
+    margin-top: 105px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .wrap-left {
+            h1 {
+                font-family: "Exo 2";
+                font-size: 52px;
+                font-weight: 600;
+                line-height: 65px;
+                color: $grey;
+                width: 100%;
+            }
+            .text {
+                font-family: "PT Sans";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: $light-grey;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                width: 100%;
+            }
+            .bold {
+                b {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: $grey;
+                    border-bottom: 3px solid #ffce50;
+                    cursor: pointer;
+                }
+            }
+        }
+        .wrap-right {
+            .tablet-img {
+                display: none;
+            }
+            .intro-img {
+                display: flex;
+                // width: 100%;
+            }
+            .phone-img {
+                display: none;
+            }
+        }
+    }
+
+}
+
+// responsive tablet start
+@media (max-width: 915px) {
+    .intro {
+        margin: 0 auto;
+        margin-top: 117px;
+        .wrapper {
+            flex-direction: column;
+            .wrap-left {
+                h1 {
+                    text-align: center;
+                    font-size: 44px;
+                }
+                .text {
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    width: 100%;
+                }
+                .bold {
+                    text-align: center;
+                    b {
+                        font-family: "PT Sans";
+                        font-size: 16px;
+                        // font-weight: 700;
+                        // line-height: 24px;
+                        color: $grey;
+                        border-bottom: 3px solid #ffce50;
+                        cursor: pointer;
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
+            .wrap-right {
+                .intro-img {
+                    display: none;
+                }
+                .tablet-img {
+                    display: flex;
+                    margin-top: 73px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// responsive tablet end
+
+@media (max-width: 480px) {
+    .intro {
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 75px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .wrap-left {
+                h1 {
+                    width: 100%;
+                    font-family: Exo 2;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    text-align: left;
+                    max-width: 344px;
+                    height: 64px;
+                }
+                .text {
+                    font-size: 15px;
+                    text-align: left;
+                    padding-top: 32px;
+                }
+                .bold {
+                    text-align: left;
+                    b {
+                    }
+                }
+            }
+            .wrap-right {
+                .tablet-img {
+                    display: none;
+                }
+                .phone-img {
+                    display: flex;
+                    margin-top: 40px;
+                    width: 100%;
+                    width: 395px;
+                    height: 253px;
+                }
+            }
+        }
+   
+    }
+}

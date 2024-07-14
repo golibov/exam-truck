@@ -1,0 +1,18 @@
+.ved {
+    margin: 0 auto;
+    margin-top: 62px;
+}
+@media (max-width: 980px) {
+    video {
+        width: 675px;
+        height: 405px;
+        //    flex-wrap: wrap;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 500px) {
+    video {
+        width: 327px;
+        height: 196px;
+    }
+}
